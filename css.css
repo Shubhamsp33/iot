@@ -1,0 +1,65 @@
+h1{
+	color:white;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	color:white; 
+}
+
+.p1{
+	text-align:right-side;
+}
+
+h3{
+	text-align:center;
+	color:white;
+}
+
+h4{
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+body{
+	background-image:url('https://wallpaperaccess.com/full/3202424.jpg');
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.i1{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btext {
+  background-image: url("https://wallpaperaccess.com/full/3202424.jpg");
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.1);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
